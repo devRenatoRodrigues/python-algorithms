@@ -2,8 +2,6 @@ import pytest
 
 from challenges.challenge_encrypt_message import encrypt_message
 
-# from challenges.challenge_encrypt_message import encrypt_message
-
 
 def test_encrypt_message():
     with pytest.raises(TypeError) as type_error_key:
