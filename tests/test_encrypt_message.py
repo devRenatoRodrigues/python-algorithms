@@ -44,3 +44,10 @@ def test_with_even_number():
     numbers = 2
 
     assert encrypt_message(message, numbers) == "ets_et"
+
+
+def test_positive_valid_index():
+    message = "hello"
+    numbers = 8
+
+    assert encrypt_message(message, numbers) == "olleh"
